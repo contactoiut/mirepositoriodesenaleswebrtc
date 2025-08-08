@@ -1,0 +1,23 @@
+
+{
+  "name": "webrtc-signaling-server",
+  "version": "1.0.0",
+  "description": "A simple signaling server for WebRTC using PeerJS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "webrtc",
+    "peerjs",
+    "signaling"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "peer": "^1.0.2"
+  }
+}
